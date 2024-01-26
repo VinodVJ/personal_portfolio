@@ -1,0 +1,33 @@
+// projects.component.scss
+
+.projects {
+    padding: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .project-description {
+    font-size: 16px;
+  }
+  
+  .project-links {
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

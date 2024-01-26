@@ -1,0 +1,13 @@
+<section class="projects">
+    <h2>Projects</h2>
+    <div class="project" *ngFor="let project of projects">
+      <div class="project-title">{{ project.title }}</div>
+      <div class="project-description">{{ project.description }}</div>
+      <div class="project-links">
+        <a href="{{ project.demoUrl }}" target="_blank">Live Demo</a>
+        <span>|</span>
+        <a href="{{ project.codeUrl }}" target="_blank">Source Code</a>
+      </div>
+    </div>
+</section>
+  
